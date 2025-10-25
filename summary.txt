@@ -1,0 +1,9 @@
+indir: experiments/ab_replay
+seed: 0
+acc_A after A: 0.910
+acc_A after B: 0.637
+acc_B after B: 0.913
+forgetting (A): +0.273
+subspace overlap (top-5 PCs):
+  cosines: 0.985, 0.983, 0.973, 0.956, 0.908
+  mean cosine: 0.961
