@@ -1,0 +1,26 @@
+﻿# Python / build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Jupyter/plots cache
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Experiments (keep small artifacts only)
+experiments/*/A_hidden_*.pt
+experiments/*/*.ckpt
+experiments/*/*.pt
+# keep metrics.csv and figures
+!experiments/*/metrics.csv
+!experiments/*/figures/
