@@ -29,6 +29,14 @@ mem-geometry/
 - **Without Replay:** strong representational drift (low overlap between hidden subspaces)
 - **With Replay:** stable representations, subspace cosine ≈ 0.96
 
+### Visual results
+**Geometry PCA:**
+![PCA Geometry](experiments/ab_replay/figures/geometry_pca.png)
+
+**Forgetting comparison:**
+![Forgetting Bar](experiments/ab_replay/figures/forgetting_bar.png)
+
+
 ## Run the experiments
 
 ```bash
